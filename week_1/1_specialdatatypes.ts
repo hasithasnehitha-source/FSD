@@ -1,5 +1,5 @@
 
-// any
+
 
 let value: any = 10;
 console.log(value);
@@ -10,7 +10,7 @@ console.log(value);
 value = true;
 console.log(value);
 
-// unknown
+
 
 let data: unknown = "TypeScript";
 
@@ -18,10 +18,10 @@ if (typeof data === "string") {
     console.log(data.toUpperCase());
 }
 
-// void
+
 
 function greet(name: string): void {
     console.log("Welcome " + name);
 }
 
-greet("Lahari");
+greet("Hari");
