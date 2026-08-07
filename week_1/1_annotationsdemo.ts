@@ -1,16 +1,15 @@
 
-// Variable Annotations
 
 let studentName: string = "Lahari";
 let age: number = 20;
 let isStudent: boolean = true;
 
-// Array Annotations
+
 
 let marks: number[] = [90, 95, 88];
 let subjects: string[] = ["Math", "Science", "English"];
 
-// Function Parameter & Return Type Annotations
+
 
 function calculateAverage(scores: number[]): number {
     let sum: number = 0;
@@ -40,13 +39,7 @@ console.log("Marks:", marks);
 let average: number = calculateAverage(marks);
 console.log("Average:", average);
 
-// Type Safety Check
-
-let salary: number = 50000;
-
-// salary = "50000";      
-// age = true;            
-// marks.push("100");     
+let salary: number = 50000;    
 
 salary = 60000;         
 marks.push(99);          
