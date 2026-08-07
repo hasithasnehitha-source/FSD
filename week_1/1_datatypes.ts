@@ -1,13 +1,13 @@
 
-let age: number = 20;
-let marks: number = 95.5;
+let age: number = 19;
+let marks: number = 95.6;
 let year: number = 2026;
 
 console.log("Age:", age);
 console.log("Marks:", marks);
 console.log("Year:", year);
 
-let studentName1: string = "Lahari";
+let studentName1: string = "Hari";
 let college: string = "SVECW";
 let course: string = "AIML";
 
@@ -24,8 +24,8 @@ console.log("Is Student:", isStudent);
 console.log("Is Placed:", isPlaced);
 
 
-let studentName: string = "Sai";
-let studentAge: number = 21;
+let studentName: string = "Sri";
+let studentAge: number = 22;
 let passed: boolean = true;
 
 console.log(`Name: ${studentName}, Age: ${studentAge}, Passed: ${passed}`);
@@ -44,5 +44,5 @@ function studentDetails(name: string, age: number, passed: boolean): void {
     }
 }
 
-studentDetails("Lahari", 20, true);
-studentDetails("Sai", 21, false);
+studentDetails("Hari", 19, true);
+studentDetails("Sri", 22, false);
