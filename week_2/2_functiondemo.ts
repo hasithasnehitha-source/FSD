@@ -1,5 +1,5 @@
 
-// Parameter Types
+
 
 function add(a: number, b: number): number {
     return a + b;
@@ -7,7 +7,7 @@ function add(a: number, b: number): number {
 
 console.log("Addition:", add(10, 20));
 
-// Explicit Return Type
+
 
 function square(num: number): number {
     return num * num;
@@ -15,7 +15,6 @@ function square(num: number): number {
 
 console.log("Square:", square(5));
 
-// Default Parameters
 
 function greet(name: string = "Guest"): void {
     console.log("Welcome", name);
@@ -24,7 +23,7 @@ function greet(name: string = "Guest"): void {
 greet("Lahari");
 greet();
 
-// Optional Parameters
+
 
 function student(name: string, age?: number): void {
     console.log("Name:", name);
@@ -37,9 +36,9 @@ function student(name: string, age?: number): void {
 }
 
 student("Sai", 20);
-student("Lahari");
+student("hari");
 
-// Rest Parameters
+
 
 function total(...marks: number[]): number {
     let sum: number = 0;
