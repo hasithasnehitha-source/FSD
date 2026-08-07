@@ -54,7 +54,6 @@ console.log("Total:", total(90, 85, 95));
 console.log("Total:", total(70, 80));
 console.log("Total:", total());
 
-// Testing the Experiment
 
 console.log(add(5, 10));
 console.log(square(8));
